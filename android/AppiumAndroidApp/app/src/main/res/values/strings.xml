@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppiumAndroidApp</string>
+    <string name="login_text">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="username_hint">Username</string>
+    <string name="login_dialog_message">Login pressed</string>
+    <string name="login_dialog_title">Alert</string>
+    <string name="login_dialog_ok">OK</string>
+</resources>
