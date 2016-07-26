@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F97587941D46E3F400A35725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97587931D46E3F400A35725 /* AppDelegate.swift */; };
+		F97587961D46E3F400A35725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97587951D46E3F400A35725 /* ViewController.swift */; };
+		F97587991D46E3F400A35725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97587971D46E3F400A35725 /* Main.storyboard */; };
+		F975879B1D46E3F400A35725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F975879A1D46E3F400A35725 /* Assets.xcassets */; };
+		F975879E1D46E3F400A35725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F975879C1D46E3F400A35725 /* LaunchScreen.storyboard */; };
+		F97587A91D46E3F400A35725 /* AppiumPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97587A81D46E3F400A35725 /* AppiumPOCTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F97587A51D46E3F400A35725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F97587881D46E3F400A35725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F975878F1D46E3F400A35725;
+			remoteInfo = AppiumPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F97587901D46E3F400A35725 /* AppiumPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppiumPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97587931D46E3F400A35725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F97587951D46E3F400A35725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F97587981D46E3F400A35725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F975879A1D46E3F400A35725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F975879D1D46E3F400A35725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F975879F1D46E3F400A35725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F97587A41D46E3F400A35725 /* AppiumPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppiumPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97587A81D46E3F400A35725 /* AppiumPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppiumPOCTests.swift; sourceTree = "<group>"; };
+		F97587AA1D46E3F400A35725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F975878D1D46E3F400A35725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97587A11D46E3F400A35725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F97587871D46E3F400A35725 = {
+			isa = PBXGroup;
+			children = (
+				F97587921D46E3F400A35725 /* AppiumPOC */,
+				F97587A71D46E3F400A35725 /* AppiumPOCTests */,
+				F97587911D46E3F400A35725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F97587911D46E3F400A35725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97587901D46E3F400A35725 /* AppiumPOC.app */,
+				F97587A41D46E3F400A35725 /* AppiumPOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F97587921D46E3F400A35725 /* AppiumPOC */ = {
+			isa = PBXGroup;
+			children = (
+				F97587931D46E3F400A35725 /* AppDelegate.swift */,
+				F97587951D46E3F400A35725 /* ViewController.swift */,
+				F97587971D46E3F400A35725 /* Main.storyboard */,
+				F975879A1D46E3F400A35725 /* Assets.xcassets */,
+				F975879C1D46E3F400A35725 /* LaunchScreen.storyboard */,
+				F975879F1D46E3F400A35725 /* Info.plist */,
+			);
+			path = AppiumPOC;
+			sourceTree = "<group>";
+		};
+		F97587A71D46E3F400A35725 /* AppiumPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F97587A81D46E3F400A35725 /* AppiumPOCTests.swift */,
+				F97587AA1D46E3F400A35725 /* Info.plist */,
+			);
+			path = AppiumPOCTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F975878F1D46E3F400A35725 /* AppiumPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97587AD1D46E3F400A35725 /* Build configuration list for PBXNativeTarget "AppiumPOC" */;
+			buildPhases = (
+				F975878C1D46E3F400A35725 /* Sources */,
+				F975878D1D46E3F400A35725 /* Frameworks */,
+				F975878E1D46E3F400A35725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppiumPOC;
+			productName = AppiumPOC;
+			productReference = F97587901D46E3F400A35725 /* AppiumPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F97587A31D46E3F400A35725 /* AppiumPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97587B01D46E3F400A35725 /* Build configuration list for PBXNativeTarget "AppiumPOCTests" */;
+			buildPhases = (
+				F97587A01D46E3F400A35725 /* Sources */,
+				F97587A11D46E3F400A35725 /* Frameworks */,
+				F97587A21D46E3F400A35725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F97587A61D46E3F400A35725 /* PBXTargetDependency */,
+			);
+			name = AppiumPOCTests;
+			productName = AppiumPOCTests;
+			productReference = F97587A41D46E3F400A35725 /* AppiumPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F97587881D46E3F400A35725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Globant;
+				TargetAttributes = {
+					F975878F1D46E3F400A35725 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F97587A31D46E3F400A35725 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F975878F1D46E3F400A35725;
+					};
+				};
+			};
+			buildConfigurationList = F975878B1D46E3F400A35725 /* Build configuration list for PBXProject "AppiumPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F97587871D46E3F400A35725;
+			productRefGroup = F97587911D46E3F400A35725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F975878F1D46E3F400A35725 /* AppiumPOC */,
+				F97587A31D46E3F400A35725 /* AppiumPOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F975878E1D46E3F400A35725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F975879E1D46E3F400A35725 /* LaunchScreen.storyboard in Resources */,
+				F975879B1D46E3F400A35725 /* Assets.xcassets in Resources */,
+				F97587991D46E3F400A35725 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97587A21D46E3F400A35725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F975878C1D46E3F400A35725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97587961D46E3F400A35725 /* ViewController.swift in Sources */,
+				F97587941D46E3F400A35725 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97587A01D46E3F400A35725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97587A91D46E3F400A35725 /* AppiumPOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F97587A61D46E3F400A35725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F975878F1D46E3F400A35725 /* AppiumPOC */;
+			targetProxy = F97587A51D46E3F400A35725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F97587971D46E3F400A35725 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F97587981D46E3F400A35725 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F975879C1D46E3F400A35725 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F975879D1D46E3F400A35725 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F97587AB1D46E3F400A35725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F97587AC1D46E3F400A35725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F97587AE1D46E3F400A35725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppiumPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globant.AppiumPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F97587AF1D46E3F400A35725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppiumPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globant.AppiumPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F97587B11D46E3F400A35725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppiumPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globant.AppiumPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppiumPOC.app/AppiumPOC";
+			};
+			name = Debug;
+		};
+		F97587B21D46E3F400A35725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppiumPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globant.AppiumPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppiumPOC.app/AppiumPOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F975878B1D46E3F400A35725 /* Build configuration list for PBXProject "AppiumPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97587AB1D46E3F400A35725 /* Debug */,
+				F97587AC1D46E3F400A35725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97587AD1D46E3F400A35725 /* Build configuration list for PBXNativeTarget "AppiumPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97587AE1D46E3F400A35725 /* Debug */,
+				F97587AF1D46E3F400A35725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F97587B01D46E3F400A35725 /* Build configuration list for PBXNativeTarget "AppiumPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97587B11D46E3F400A35725 /* Debug */,
+				F97587B21D46E3F400A35725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F97587881D46E3F400A35725 /* Project object */;
+}
