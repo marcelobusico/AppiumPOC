@@ -10,7 +10,7 @@ import UIKit
 
 class UserLoggedViewController: UIViewController {
 
-  var names = ["Joffrey","Cersei","The hound"]
+  var names = ["Row 1", "Row 2", "Row 3", "Row 4", "Row 5", "Row 6", "Row 7", "Row 8", "Row 9", "Row 10", "Row 11", "Row 12", "Row 13", "Row 14", "Row 15", "Row 16", "Row 17", "Row 18", "Row 19", "Row 20", "Row 21", "Row 22", "Row 23", "Row 24", "Row 25", "Row 26", "Row 27", "Row 28", "Row 29", "Row 30", "Row 31", "Row 32", "Row 33", "Row 34", "Row 35", "Row 36", "Row 37", "Row 38", "Row 39", "Row 40", "Row 41", "Row 42", "Row 43", "Row 44", "Row 45", "Row 46", "Row 47", "Row 48", "Row 49", "Row 50"]
   
   @IBOutlet weak var tableView: UITableView!
   
@@ -24,7 +24,7 @@ class UserLoggedViewController: UIViewController {
   
   @IBAction func addName(sender: AnyObject) {
     
-    let alert = UIAlertController(title: "The list", message: "Add a new name to Arya's kill list", preferredStyle: .Alert)
+    let alert = UIAlertController(title: "The list", message: "Add a new row", preferredStyle: .Alert)
     
     let saveAction = UIAlertAction(title: "Save", style: .Default, handler:{(action:UIAlertAction) -> Void in
       
@@ -87,8 +87,26 @@ extension UserLoggedViewController: UITableViewDelegate{
   
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     
-    self.names.removeAtIndex(indexPath.row)
-    self.tableView.reloadData()
+    
+    let alert = UIAlertController(title: "The list", message: "You selected \(self.names[indexPath.row])", preferredStyle: .Alert)
+    
+    let deleteAction = UIAlertAction(title: "Delete", style: .Default, handler:{(action:UIAlertAction) -> Void in
+      
+      self.names.removeAtIndex(indexPath.row)
+      self.tableView.reloadData()
+      
+    })
+    
+    let cancelAction = UIAlertAction(title: "Cancel", style: .Default, handler: {(action:UIAlertAction)->Void in
+    })
+
+    alert.addAction(deleteAction)
+    alert.addAction(cancelAction)
+    
+    self.presentViewController(alert, animated: true, completion: nil)
+    
+    
+    
   }
   
 }
