@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C19D7FCD1D4801040062742E /* UserLoggedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19D7FCC1D4801040062742E /* UserLoggedViewController.swift */; };
 		F97587941D46E3F400A35725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97587931D46E3F400A35725 /* AppDelegate.swift */; };
 		F97587961D46E3F400A35725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97587951D46E3F400A35725 /* ViewController.swift */; };
 		F97587991D46E3F400A35725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97587971D46E3F400A35725 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C19D7FCC1D4801040062742E /* UserLoggedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoggedViewController.swift; sourceTree = "<group>"; };
 		F97587901D46E3F400A35725 /* AppiumPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppiumPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97587931D46E3F400A35725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F97587951D46E3F400A35725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				F97587931D46E3F400A35725 /* AppDelegate.swift */,
 				F97587951D46E3F400A35725 /* ViewController.swift */,
 				F97587971D46E3F400A35725 /* Main.storyboard */,
+				C19D7FCC1D4801040062742E /* UserLoggedViewController.swift */,
 				F975879A1D46E3F400A35725 /* Assets.xcassets */,
 				F975879C1D46E3F400A35725 /* LaunchScreen.storyboard */,
 				F975879F1D46E3F400A35725 /* Info.plist */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19D7FCD1D4801040062742E /* UserLoggedViewController.swift in Sources */,
 				F97587961D46E3F400A35725 /* ViewController.swift in Sources */,
 				F97587941D46E3F400A35725 /* AppDelegate.swift in Sources */,
 			);
@@ -388,6 +392,7 @@
 				F97587AF1D46E3F400A35725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F97587B01D46E3F400A35725 /* Build configuration list for PBXNativeTarget "AppiumPOCTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				F97587B21D46E3F400A35725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
