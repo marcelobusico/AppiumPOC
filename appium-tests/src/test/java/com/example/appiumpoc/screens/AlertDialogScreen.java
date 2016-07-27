@@ -4,6 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AlertDialogScreen {
@@ -15,6 +16,7 @@ public class AlertDialogScreen {
     }
 
     @AndroidFindBy(uiAutomator = "new UiSelector().resourceId(\"android:id/button1\")")
+    @iOSFindBy(id = "OK")
     public MobileElement btnOk;
 
 }

@@ -14,7 +14,7 @@ public class LoginTest {
 
     @Before
     public void setUp() throws Exception {
-        driver = new AppiumDriverFactory().createAppiumDriverForAndroid();
+        driver = new AppiumDriverFactory().createAppiumDriver();
     }
 
     @After

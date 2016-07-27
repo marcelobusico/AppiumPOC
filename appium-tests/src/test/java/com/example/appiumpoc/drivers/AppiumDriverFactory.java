@@ -1,8 +1,6 @@
 package com.example.appiumpoc.drivers;
 
-import com.example.appiumpoc.screens.LoginScreen;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -20,6 +18,21 @@ public class AppiumDriverFactory {
         System.setProperty("http.proxyPort", "");
     }
 
+    public AppiumDriver createAppiumDriver() {
+        String mobileEnv = System.getenv("MOBILE_ENV");
+        if (mobileEnv == null) {
+            throw new IllegalStateException("You need to set MOBILE_ENV to run tests.");
+        }
+
+        if (mobileEnv.equalsIgnoreCase("android")) {
+            return createAppiumDriverForAndroid();
+        } else if (mobileEnv.equalsIgnoreCase("ios")) {
+            return createAppiumDriverForIOS();
+        } else {
+            throw new IllegalStateException("You need to set MOBILE_ENV to run tests.");
+        }
+    }
+
     public AppiumDriver createAppiumDriverForAndroid() {
         setupEnvironment();
         try {
@@ -28,7 +41,7 @@ public class AppiumDriverFactory {
             File app = new File(appDir, "AppiumAndroidApp.apk");
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
-            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
+            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "6.0");
 
             capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
@@ -47,12 +60,12 @@ public class AppiumDriverFactory {
             File app = new File(appDir, "AppiumPOC.app");
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
-            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"iPhone 6");
+            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 6");
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9.3");
 
             capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
 
-            return new AndroidDriver(new URL(APPIUM_SERVER_URL), capabilities);
+            return new IOSDriver(new URL(APPIUM_SERVER_URL), capabilities);
         } catch (Exception ex) {
             throw new IllegalStateException("Could not create Appium Driver for iOS.", ex);
         }
